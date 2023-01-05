@@ -21,7 +21,7 @@ $(function(){
       }, 'slow');
     });
     
-    // ヘッダー内の<a>タグをクリックしたときのclickイベントを作成してください。
+    // ヘッダー内の<a>タグをクリックしたときclickイベントを作成
     $('header a').click(function(){
      var id = $(this).attr('href');
      var position = $(id).offset().top;
@@ -30,13 +30,6 @@ $(function(){
       
      }, 500);
     });
-    
-    
-    
-    
-    
-    
-    
     
     
   });

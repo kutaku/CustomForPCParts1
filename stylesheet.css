@@ -73,7 +73,7 @@ body {
   }
   
   .gray-section {
-    background: #f4f4f4;
+    background: #BFC5CA;
     color: #888;
   }
   /*-------  ここまで共通のCSS  --------*/
@@ -81,11 +81,11 @@ body {
   /*-------  ここからheader  --------*/
   header {
     height: 50px;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background-color: #BFC5CA;
     line-height: 50px;
     box-shadow: -1px 1px 1px rgba(0,0,0,0.1);
     z-index: 10;
@@ -96,7 +96,7 @@ body {
   }
   
   .header-logo {
-    color: #777;
+    color: #505050;
     font-weight: 700;
     font-size: 22px;
     font-family: 'Dosis', sans-serif;
@@ -178,7 +178,7 @@ body {
   /*-------  ここまでtop content  --------*/
   
   /*-------  ここからstamp  --------*/
-  .stamps-section {
+  /* .stamps-section {
     text-align: center;
     padding-bottom: 60px;
   }
@@ -214,7 +214,7 @@ body {
   .stamp-link {
     color: #5983ff;
   }
-  
+   */
   /*-------  ここまでstamp  --------*/
   
   /*-------  ここからinterview  --------*/
@@ -242,7 +242,7 @@ body {
   /*-------  ここまでinterview  --------*/
   
   /*-------  ここからcontact  --------*/
-  .contact-section {
+  /* .contact-section {
     color: #6a6a6a;
   }
   
@@ -280,8 +280,8 @@ body {
   textarea {
     height: 150px;
   }
-  
-  .contact-form {
+   */
+  /* .contact-form {
     display: inline-block;
     vertical-align: top;
     width: 58%;
@@ -315,23 +315,76 @@ body {
   .contact-about p {
     margin: 0 0 24px;
     line-height: 24px;
-  }
+  } */
   
   .error-message {
     color: #F51414;
     height: 20px;
   }
   /*-------  ここまでcontact  --------*/
+
+/*---ここからラジオボタン---*/
+.list ul li{
+	margin:0 5px 50px 0;
+	display:inline-block;
+  color: #505050;
+}
+/* ラジオボタン01 */
+.radio01{
+  display: none;
+}
+.radio01 + label{
+  padding-left: 22px;
+  position:relative;
+  margin-right: 22px;
+}
+.radio01 + label::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+.radio01:checked + label{
+  color: #009a9a;
+  padding: 1em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  background: #FFF;
+  border: solid 3px #009a9a;/*線*/
+  border-radius: 10px;/*角の丸み*/
+}
+.radio01:checked + label::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 11px;
+  height: 11px;
+  background: #009a9a;
+  border-radius: 50%;
+  text-align: center;
+}
+/*---ここまでラジオボタン---*/
+
+
+
+
   
   /*-------  ここからfooter  --------*/
   footer {
     text-align: center;
-    padding: 40px 0;
-    color: #999;
-    background-color: #222;
+    padding: 2px 0;
+    color: #505050;
+    background-color: #BFC5CA;
   }
   
-  .social-icon {
+  /* .social-icon {
     vertical-align: top;
     text-align: center;
     display: inline-block;
@@ -348,9 +401,10 @@ body {
   .social-icon:hover{
     color: #e3e3e3;
     background-color: rgb(94, 144, 255);
-  }
+  } */
   
   .copyright {
-    margin-top: 20px;
+    margin: 8px;
+    text-align: center;
   }
   /*-------  ここまでfooter  --------*/
