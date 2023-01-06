@@ -5,6 +5,7 @@ body {
     -webkit-font-smoothing: antialiased;
     font-size: 14px;
     color: #888;
+    background-color: #D4DFF0;
   }
   
   ul {
@@ -34,12 +35,35 @@ body {
     margin-bottom: 10px;
     font-weight: 400;
   }
-  
-  h4, h5 {
-    color: #444;
+
+  h3 {
+    color: #505050;
     font-size: 18px;
+    position: relative;
+  padding-left: 25px;
   }
-  
+
+  h3:before {
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 15px transparent;
+    border-bottom: solid 15px rgb(80,80,80);
+  }
+  h3:after {
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 10px;
+    width: 100%;
+    border-bottom: solid 3px rgb(80,80,80);
+  }
+
+/* 
   h3:before, h3:after{
     content: "";
     background-color: #616161;
@@ -49,7 +73,7 @@ body {
     margin: 0 6rem;
     vertical-align: middle;
   }
-  
+   */
   .container {
     width: 1170px;
     padding-right: 15px;
@@ -85,7 +109,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #BFC5CA;
+    background-color: #A4C2F0;
     line-height: 50px;
     box-shadow: -1px 1px 1px rgba(0,0,0,0.1);
     z-index: 10;
@@ -128,40 +152,31 @@ body {
   .top-section {
     margin: 0 auto;
     text-align: center;
-    background-image: url("https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/first_view.jpg");
+    background-image: url(images/blue221.jpg);
     background-size: cover;
   }
   
   .top-inner {
-    padding: 0;
-    padding-top: 180px;
-    padding-bottom: 120px;
-    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-size: cover;
   }
   
-  .top-description {
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .top-section h2 {
+  .top-section p {
     font-family: 'Dosis', sans-serif;
-    color: #d0d0d0;
+    color: white;
     font-size: 48px;
     line-height: 54px;
-    margin: 10px 0 30px 0;
+    padding-right: 30px;
     font-weight: 400;
   }
   
-  .top-description p {
-    color: #bababa;
-    font-size: 18px;
-    line-height: 30px;
-  }
   
   .top-section .top-button {
     margin-top: 40px;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
   }
   
   .btn {
@@ -177,151 +192,23 @@ body {
   
   /*-------  ここまでtop content  --------*/
   
-  /*-------  ここからstamp  --------*/
-  /* .stamps-section {
-    text-align: center;
-    padding-bottom: 60px;
-  }
   
-  #stamps > .container {
-    width: 936px;
-  }
-  
-  .stamp-box {
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 80px;
-  }
-  
-  .stamp-image {
-    width: 200px;
-    height: 200px;
-    margin: 10px 0;
-    padding: 0px;
-  }
-  
-  #stamp-carousel img {
-    display: inline-block;
-  }
-  
-  #stamp-carousel li {
-    background-color: #869791;
-  }
-  .carousel-indicators {
-    z-index: 5;
-  }
-  
-  .stamp-link {
-    color: #5983ff;
-  }
-   */
-  /*-------  ここまでstamp  --------*/
-  
-  /*-------  ここからinterview  --------*/
-  .interview-section-top {
+  /*-------  ここからsection  --------*/
+  .section-top {
     text-align: center;
     height: 376px;
   }
   
-  .interview-section-bottom {
-    padding-top: 120px;
+  .section-bottom {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
-  
-  .interview-box {
-    display: inline-block;
-    vertical-align: top;
-    width: 44%;
-    margin-left: 65px;
-    margin-bottom: 60px;
-  }
-  
-  .interview-image {
-    width: 280px;
-    border-radius: 50%;
-  }
-  /*-------  ここまでinterview  --------*/
-  
-  /*-------  ここからcontact  --------*/
-  /* .contact-section {
-    color: #6a6a6a;
-  }
-  
-  .contact-section-inner {
-    padding-bottom: 70px;
-  }
-  
-  .contact-section h3, .contact-section h4 {
-    color: #404040;
-  }
-  
-  .contact-section h4 {
-    font-size: 22px;
-    padding-bottom: 10px;
-  }
-  
-  .contact-form input[type="text"], .contact-form textarea {
-    margin: 0;
-    padding: 0 10px;
-    vertical-align: middle;
-    background: rgba(0, 0, 0, 0.08);
-    border: none;
-    width: 85%;
-    color: #202020;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    border-radius: 0;
-    box-shadow: none;
-    transition: all .3s;
-    margin-bottom: 10px;
-    padding: 15px;
-  }
-  
-  textarea {
-    height: 150px;
-  }
-   */
-  /* .contact-form {
-    display: inline-block;
-    vertical-align: top;
-    width: 58%;
-  }
-  
-  .btn-contact {
-    font-family: 'Dosis', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    background: #5983ff;
-    border: 1px solid #5979ff;
-    color: white;
-    box-shadow: inset 0 1px 0 #5867ed;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-    transition: all .3s;
-    margin: 10px 0;
-    padding: 15px 35px;
-  }
-  
-  .contact-about {
-    display: inline-block;
-    vertical-align: top;
-    width: 40%;
-  }
-  
-  .contact-about i {
-    padding-right: 15px;
-    font-size: 18px;
-  }
-  
-  .contact-about p {
-    margin: 0 0 24px;
-    line-height: 24px;
-  } */
   
   .error-message {
     color: #F51414;
     height: 20px;
   }
-  /*-------  ここまでcontact  --------*/
+
 
 /*---ここからラジオボタン---*/
 .list ul li{
@@ -354,7 +241,7 @@ body {
   padding: 1em 1em;
   margin: 2em 0;
   font-weight: bold;
-  background: #FFF;
+  background: #D4DFF0;
   border: solid 3px #009a9a;/*線*/
   border-radius: 10px;/*角の丸み*/
 }
@@ -370,10 +257,102 @@ body {
   border-radius: 50%;
   text-align: center;
 }
+
+/* ラジオボタン02 */
+.radio02{
+  display: none;
+}
+.radio02 + label{
+  padding-left: 22px;
+  position:relative;
+  margin-right: 22px;
+}
+.radio02 + label::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+.radio02:checked + label{
+  color: #009a9a;
+  padding: 1em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  background: #D4DFF0;
+  border: solid 3px #009a9a;/*線*/
+  border-radius: 10px;/*角の丸み*/
+}
+.radio02:checked + label::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 11px;
+  height: 11px;
+  background: #009a9a;
+  border-radius: 50%;
+  text-align: center;
+}
+
 /*---ここまでラジオボタン---*/
 
+/* h2見出し画像 */
+.iconCPU::before {
+    content: url(images/cpuIcon48.png);
+    margin-right:20px;  /*画像右の余白*/
+}
 
+.iconGPU::before{
+  content: url(images/gpuIcon.png);
+    margin-right:20px;  /*画像右の余白*/
+}
 
+.list h2{
+  padding: 10px 0px;
+  border-bottom: 3px solid #000;
+  margin-bottom: 50px;
+}
+
+.guide h2{
+  padding: 10px 0px;
+}
+
+/* スコア表示ボタン */
+.buttonScore a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1em 2em;
+  width: 200px;
+  color: #009a9a;;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #cccccc;
+  box-shadow: 0 5px 0 #aaaaaa;
+  transition: 0.3s; 
+}
+
+.buttonScore a::after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid #009a9a;
+  border-right: 3px solid #009a9a;
+  transform: rotate(45deg);
+}
+
+.buttonScore a:hover {
+  transform: translateY(3px);
+  text-decoration: none;
+  box-shadow: 0 2px 0 #aaaaaa;
+}
 
   
   /*-------  ここからfooter  --------*/
@@ -381,27 +360,8 @@ body {
     text-align: center;
     padding: 2px 0;
     color: #505050;
-    background-color: #BFC5CA;
+    background-color: #A4C2F0;
   }
-  
-  /* .social-icon {
-    vertical-align: top;
-    text-align: center;
-    display: inline-block;
-    background: rgba(94, 144, 255, 0.75);
-    width: 52px;
-    height: 52px;
-    padding-top: 13px;
-    border-radius: 50%;
-    color: #e3e3e3;
-    font-size: 24px;
-    margin: 0 15px;
-  }
-  
-  .social-icon:hover{
-    color: #e3e3e3;
-    background-color: rgb(94, 144, 255);
-  } */
   
   .copyright {
     margin: 8px;
