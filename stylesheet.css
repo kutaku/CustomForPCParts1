@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
-    font-size: 14px;
+    font-size: 24px;
     color: #505050;
     background-color: #D4DFF0;
   }
@@ -38,7 +38,7 @@ body {
 
   h3 {
     color: #505050;
-    font-size: 18px;
+    font-size: 36px;
     position: relative;
   padding-left: 25px;
   }
@@ -63,17 +63,13 @@ body {
     border-bottom: solid 3px rgb(80,80,80);
   }
 
-/* 
-  h3:before, h3:after{
-    content: "";
-    background-color: #616161;
-    display: inline-block;
-    width: 120px;
-    height: 1px;
-    margin: 0 6rem;
-    vertical-align: middle;
+  h5{
+    color: #505050;
+    font-size: 24px;
+    position: relative;
+  padding-left: 25px;
   }
-   */
+
   .container {
     width: 1170px;
     padding-right: 15px;
@@ -215,6 +211,7 @@ body {
 	margin:0 5px 50px 0;
 	display:inline-block;
   color: #505050;
+  font-size: 20px;
 }
 /* ラジオボタン01 */
 .radio01{
@@ -321,6 +318,14 @@ body {
 
 .guide h2{
   padding: 10px 0px;
+}
+
+.flex{
+  display: flex;
+  justify-content: start;
+}
+.flex>p{
+  width: 50%;
 }
 
 /* スコア表示ボタン */
