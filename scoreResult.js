@@ -14,7 +14,10 @@ function onRadioButtonChange() {
 
     if(cpubtn12400.checked == true) {
         if(gpubtn3060.checked == true) {
-            target.innerHTML = "要素12400to3060がチェック。<br/>";
+            target.innerHTML = "<h3>12400＆3060 SCORE</h3><br>" +
+            "<h2>◆36688：passmark合計性能スコア</h2>" +
+            "Core i5 12400: 19549 / RTX3060 12GB: 17139<br><br>" +
+            "・BTO推定価格：16万円前後<br>・価格を抑えてフルHDゲーミングにおすすめ！<br/>";
         } else if(gpubtn3060ti.checked == true) {
             target.innerHTML = "要素12400to3060tiがチェック。<br/>";
         } else if(gpubtn3070.checked == true) {
