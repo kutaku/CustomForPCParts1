@@ -44,14 +44,15 @@
         <div class="list" id="choice">
             <ul>
             <h2 class="iconCPU">1.CPUを選択</h2>
-            <li><input type="radio" name="radio01" class="radio01" id="radio01-1"><label for="radio01-1">intel Core i5 12400</label></li>
-            <li><input type="radio" name="radio01" class="radio01" id="radio01-2"><label for="radio01-2">intel Core i5 12600K</label></li>
-            <li><input type="radio" name="radio01" class="radio01" id="radio01-3"><label for="radio01-3">intel Core i5 13400</label></li>
-            <li><input type="radio" name="radio01" class="radio01" id="radio01-4"><label for="radio01-4">intel Core i5 13600K</label></li><br>
-            <li><input type="radio" name="radio01" class="radio01" id="radio01-5"><label for="radio01-5">intel Core i7 12700</label></li>
-            <li><input type="radio" name="radio01" class="radio01" id="radio01-6"><label for="radio01-6">intel Core i7 12700K</label></li>
+            <li><input type="radio" name="radio01" class="radio01" id="radio01-1" onchange="onRadioButtonChange();" ><label for="radio01-1">intel Core i5 12400</label></li>
+            <li><input type="radio" name="radio01" class="radio01" id="radio01-2" onchange="onRadioButtonChange();" ><label for="radio01-2">intel Core i5 12600K</label></li><br>
+            <li><input type="radio" name="radio01" class="radio01" id="radio01-3" onchange="onRadioButtonChange();" ><label for="radio01-3">intel Core i7 12700</label></li>
+            <li><input type="radio" name="radio01" class="radio01" id="radio01-4" onchange="onRadioButtonChange();" ><label for="radio01-4">intel Core i7 12700K</label></li><br>
+            
+            <!-- <li><input type="radio" name="radio01" class="radio01" id="radio01-5"><label for="radio01-5">intel Core i5 13400</label></li>
+            <li><input type="radio" name="radio01" class="radio01" id="radio01-6"><label for="radio01-6">intel Core i5 13600K</label></li><br>
             <li><input type="radio" name="radio01" class="radio01" id="radio01-7"><label for="radio01-7">intel Core i7 13700</label></li>
-            <li><input type="radio" name="radio01" class="radio01" id="radio01-8"><label for="radio01-8">intel Core i7 13700K</label></li><br>
+            <li><input type="radio" name="radio01" class="radio01" id="radio01-8"><label for="radio01-8">intel Core i7 13700K</label></li><br> -->
             <!-- <li><input type="radio" name="radio01" class="radio01" id="radio01-9"><label for="radio01-9">intel Core i9 12900</label></li>
             <li><input type="radio" name="radio01" class="radio01" id="radio01-10"><label for="radio01-10">intel Core i9 12900K</label></li>
             <li><input type="radio" name="radio01" class="radio01" id="radio01-11"><label for="radio01-11">intel Core i9 13900</label></li>
@@ -64,11 +65,11 @@
         
             <h2 class="iconGPU">2.GPUを選択</h2>
             <ul>
-            <li><input type="radio" name="radio02" class="radio02" id="radio02-1"><label for="radio02-1">GeForce RTX3060 12GB</label></li>
-            <li><input type="radio" name="radio02" class="radio02" id="radio02-2"><label for="radio02-2">GeForce RTX3060ti 8GB</label></li><br>
-            <li><input type="radio" name="radio02" class="radio02" id="radio02-3"><label for="radio02-3">GeForce RTX3070 8GB</label></li>
-            <li><input type="radio" name="radio02" class="radio02" id="radio02-4"><label for="radio02-4">GeForce RTX3070ti 8GB</label></li>
-            <li><input type="radio" name="radio02" class="radio02" id="radio02-5"><label for="radio02-5">GeForce RTX3080 10GB</label></li>
+            <li><input type="radio" name="radio02" class="radio02" id="radio02-1" onchange="onRadioButtonChange();"><label for="radio02-1">GeForce RTX3060 12GB</label></li>
+            <li><input type="radio" name="radio02" class="radio02" id="radio02-2" onchange="onRadioButtonChange();"><label for="radio02-2">GeForce RTX3060ti 8GB</label></li><br>
+            <li><input type="radio" name="radio02" class="radio02" id="radio02-3" onchange="onRadioButtonChange();"><label for="radio02-3">GeForce RTX3070 8GB</label></li>
+            <li><input type="radio" name="radio02" class="radio02" id="radio02-4" onchange="onRadioButtonChange();"><label for="radio02-4">GeForce RTX3070ti 8GB</label></li>
+            <li><input type="radio" name="radio02" class="radio02" id="radio02-5" onchange="onRadioButtonChange();"><label for="radio02-5">GeForce RTX3080 10GB</label></li>
             <!-- <li><input type="radio" name="radio02" class="radio02" id="radio02-6"><label for="radio02-6">GeForce RTX3080ti 12GB</label></li>
             <li><input type="radio" name="radio02" class="radio02" id="radio02-7"><label for="radio02-7">GeForce RTX3090 24GB</label></li>
             <li><input type="radio" name="radio02" class="radio02" id="radio02-8"><label for="radio02-8">GeForce RTX3090ti 24GB</label></li><br> -->
@@ -78,7 +79,8 @@
         <div class="buttonScore">
             <a href="">スコアを表示する</a>
         </div><br>
-
+        <div id="output"></div>
+        <script type="text/javascript" src="scoreResult.js"></script>
 
         </div>
         </div>
