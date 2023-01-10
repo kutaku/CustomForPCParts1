@@ -328,6 +328,10 @@ body {
   text-align: center;
 }
 
+span {
+  color: #009a9a;
+}
+
 /*---ここまでラジオボタン---*/
 
 /* h2見出し画像 */
