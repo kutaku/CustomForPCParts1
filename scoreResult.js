@@ -98,18 +98,33 @@ function onRadioButtonChange() {
     }
     else if (cpubtn12700K.checked == true) {
         if(gpubtn3060.checked == true) {
-            target.innerHTML = "要素12700Kto3060がチェック。<br/>";
+            target.innerHTML = "<h3>12700K＆3060 SCORE</h3><br>" +
+            "<h2><span><b>◆51861</b>：合計性能スコア</span></h2>" +
+            "<span>passmark 「Core i7 12700K: 34722 」 + 「RTX3060 12GB: 17139 」</span><br>" +
+            "<span>・BTO推定価格：24万円前後 (メモリ32GB/SSD1TB/電源GOLD750W)<br>・ゲーム配信 / 動画編集におすすめ！</span><br/>";
         } else if(gpubtn3060ti.checked == true) {
-            target.innerHTML = "要素12700Kto3060tiがチェック。<br/>";
+            target.innerHTML = "<h3>12700K＆3060ti SCORE</h3><br>" +
+            "<h2><span><b>◆55255</b>：合計性能スコア</span></h2>" +
+            "<span>passmark 「Core i7 12700K: 34722 」 + 「RTX3060ti 8GB: 20533 」</span><br>" +
+            "<span>・BTO推定価格：26万円前後 (メモリ32GB/SSD1TB/電源GOLD750W)<br>・ゲーム配信 / フルHD165Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3070.checked == true) {
-            target.innerHTML = "要素12700Kto3070がチェック。<br/>";
+            target.innerHTML = "<h3>12700K＆3070 SCORE</h3><br>" +
+            "<h2><span><b>◆57131</b>：合計性能スコア</span></h2>" +
+            "<span>passmark 「Core i7 12700K: 34722 」 + 「RTX3070 8GB: 22409 」</span><br>" +
+            "<span>・BTO推定価格：27万円前後 (メモリ32GB/SSD1TB/電源GOLD750W)<br>・ゲーム配信 / フルHD180Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3070ti.checked == true) {
-            target.innerHTML = "要素12700Kto3070tiがチェック。<br/>";
+            target.innerHTML = "<h3>12700K＆3070ti SCORE</h3><br>" +
+            "<h2><span><b>◆58436</b>：合計性能スコア</span></h2>" +
+            "<span>passmark 「Core i7 12700K: 34722 」 + 「RTX3070ti 8GB: 23714 」</span><br>" +
+            "<span>・BTO推定価格：27万円前後 (メモリ32GB/SSD1TB/電源GOLD750W)<br>・ゲーム配信 / フルHD280Hz / WQHD144Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3080.checked == true) {
-            target.innerHTML = "要素12700Kto3080がチェック。<br/>";
+            target.innerHTML = "<h3>12700K＆3080 SCORE</h3><br>" +
+            "<h2><span><b>◆60058</b>：合計性能スコア</span></h2>" +
+            "<span>passmark 「Core i7 12700K: 34722 」 + 「RTX3080 10GB: 25336 」</span><br>" +
+            "<span>・BTO推定価格：32万円前後 (メモリ32GB/SSD1TB/電源GOLD850W)<br>・WQHD165Hz / 4K120Hzゲーミングにおすすめ！</span><br/>";
         }
     }
     else{
-        //何も表示しない
+        //選択されていない時何も表示しない
     }
 }
