@@ -157,22 +157,22 @@ function onRadioButtonChange() {
             target.innerHTML = "<h3>13400＆3060Ti SCORE</h3><br>" +
                 "<h2><span><b>◆" + (score13400 + score3060ti) + "</b>：合計性能スコア</span></h2>" +
                 "<span>passmark " + "Core i5 13400: " + score13400 + " + RTX3060Ti 8GB: " + score3060ti + "</span><br>" +
-                "<span>・お勧め構成：メモリ16GB / SSD1TB / マザーボードB660 / 電源BRONZE650W <br>・BTO推定価格：18万円前後 <br>・FPSやRPG等全ジャンルでのフルHDゲーミングにおすすめ！</span><br/>";
+                "<span>・お勧め構成：メモリ16GB / SSD1TB / マザーボードB760 / 電源BRONZE650W <br>・BTO推定価格：21万円前後 <br>・ゲーム配信 / 全ジャンルでのフルHDゲーミングにおすすめ！</span><br/>";
         } else if (gpubtn3070.checked == true) {
             target.innerHTML = "<h3>13400＆3070 SCORE</h3><br>" +
                 "<h2><span><b>◆" + (score13400 + score3070) + "</b>：合計性能スコア</span></h2>" +
                 "<span>passmark " + "Core i5 13400: " + score13400 + " + RTX3070 8GB: " + score3070 + "</span><br>" +
-                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：22万円前後 <br>・フルHD165Hzゲーミングにおすすめ！</span><br/>";
+                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB760 / 電源GOLD750W <br>・BTO推定価格：23万円前後 <br>・ゲーム配信 / フルHD165Hzゲーミングにおすすめ！</span><br/>";
         } else if (gpubtn3070ti.checked == true) {
             target.innerHTML = "<h3>13400＆3070Ti SCORE</h3><br>" +
                 "<h2><span><b>◆" + (score13400 + score3070ti) + "</b>：合計性能スコア</span></h2>" +
                 "<span>passmark " + "Core i5 13400: " + score13400 + " + RTX3070Ti 8GB: " + score3070ti + "</span><br>" +
-                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：23万円前後 <br>・WQHD120Hzゲーミングにおすすめ！</span><br/>";
+                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB760 / 電源GOLD750W <br>・BTO推定価格：24万円前後 <br>・ゲーム配信 / WQHD120Hzゲーミングにおすすめ！</span><br/>";
         } else if (gpubtn3080.checked == true) {
             target.innerHTML = "<h3>13400＆3080 SCORE</h3><br>" +
                 "<h2><span><b>◆" + (score13400 + score3080) + "</b>：合計性能スコア</span></h2>" +
                 "<span>passmark " + "Core i5 13400: " + score13400 + " + RTX3080 10GB: " + score3080 + "</span><br>" +
-                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD850W <br>・BTO推定価格：27万円前後 <br>・WQHD144Hzゲーミングにおすすめ！</span><br/>";
+                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB760 / 電源GOLD850W <br>・BTO推定価格：28万円前後 <br>・ゲーム配信 / WQHD144Hzゲーミングにおすすめ！</span><br/>";
         }
     }
     else if (cpubtn13600K.checked == true) {
