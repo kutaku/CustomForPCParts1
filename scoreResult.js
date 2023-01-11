@@ -11,44 +11,45 @@ function onRadioButtonChange() {
 
     target = document.getElementById("output");
 
-    var score12400  = "「 Core i5 12400: 19549 」";
-    var score12600k = "「 Core i5 12600K: 27798 」";
-    var score12700  = "「 Core i7 12700: 31131 」";
-    var score12700k = "「 Core i7 12700K: 34722 」";
+    const score12400  = "「 Core i5 12400: 19549 」";
+    const score12600k = "「 Core i5 12600K: 27798 」";
+    const score12700  = "「 Core i7 12700: 31131 」";
+    const score12700k = "「 Core i7 12700K: 34722 」";
 
-    var score3060   = "「 RTX3060 12GB: 17139 」";
-    var score3060ti = "「 RTX3060Ti 8GB: 20533 」"; 
-    var score3070   = "「 RTX3070 8GB: 22409 」";
-    var score3070ti = "「 RTX3070Ti 8GB: 23714 」";
-    var score3080   = "「 RTX3080 10GB: 25336 」";
+    const score3060   = "「 RTX3060 12GB: 17139 」";
+    const score3060ti = "「 RTX3060Ti 8GB: 20533 」"; 
+    const score3070   = "「 RTX3070 8GB: 22409 」";
+    const score3070ti = "「 RTX3070Ti 8GB: 23714 」";
+    const score3080   = "「 RTX3080 10GB: 25336 」";
 
     if(cpubtn12400.checked == true) {
-        if(gpubtn3060.checked == true) {
-            target.innerHTML = "<h3>12400＆3060 SCORE</h3><br>" +
-            "<h2><span><b>◆36688</b>：合計性能スコア</span></h2>" +
-            "<span>passmark:" + score12400 + "+" + score3060 + "</span><br>" +
-            "<span>・BTO推定価格：16万円前後 (メモリ16GB/SSD500GB)<br>・価格を抑えてのフルHDゲーミングにおすすめ！</span><br/>";
-        } else if(gpubtn3060ti.checked == true) {
-            target.innerHTML =  "<h3>12400＆3060ti SCORE</h3><br>" +
-            "<h2><span><b>◆40082</b>：合計性能スコア</span></h2>" +
-            "<span>passmark:" + score12400 + "+" + score3060ti + "</span><br>" +
-            "<span>・BTO推定価格：18万円前後 (メモリ16GB/SSD1TB)<br>・FPSやRPG等全ジャンルでのフルHDゲーミングにおすすめ！</span><br/>";
-        } else if(gpubtn3070.checked == true) {
-            target.innerHTML =  "<h3>12400＆3070 SCORE</h3><br>" +
-            "<h2><span><b>◆41958</b>：合計性能スコア</span></h2>" +
-            "<span>passmark:" + score12400 + "+" + score3070 + "</span><br>" +
-            "<span>・BTO推定価格：20万円前後 (メモリ16GB/SSD1TB)<br>・フルHD165Hzゲーミングにおすすめ！</span><br/>";
-        } else if(gpubtn3070ti.checked == true) {
-            target.innerHTML =   "<h3>12400＆3070ti SCORE</h3><br>" +
-            "<h2><span><b>◆43263</b>：合計性能スコア</span></h2>" +
-            "<span>passmark:" + score12400 + "+" + score3070ti + "</span><br>" +
-            "<span>・BTO推定価格：21万円前後 (メモリ16GB/SSD1TB)<br>・WQHD100Hzゲーミングにおすすめ！</span><br/>";
-        } else if(gpubtn3080.checked == true) {
-            target.innerHTML =   "<h3>12400＆3080 SCORE</h3><br>" +
-            "<h2><span><b>◆44805</b>：合計性能スコア</span></h2>" +
-            "<span>passmark:" + score12400 + "+" + score3080 + "</span><br>" +
-            "<span>・BTO推定価格：24万円前後 (メモリ16GB/SSD1TB)<br>・WQHD144Hzゲーミングにおすすめ！</span><br/>";
-        }
+        
+            if(gpubtn3060.checked == true) {
+                target.innerHTML = "<h3>12400＆3060 SCORE</h3><br>" +
+                "<h2><span><b>◆36688</b>：合計性能スコア</span></h2>" +
+                "<span>passmark:" + score12400 + "+" + score3060 + "</span><br>" +
+                "<span>・お勧め構成：メモリ16GB / SSD1TB / マザーボードB660 / 電源BRONZE650W <br>・BTO推定価格：17万円前後 <br>・価格を抑えてのフルHDゲーミングにおすすめ！</span><br/>";
+            } else if(gpubtn3060ti.checked == true) {
+                target.innerHTML =  "<h3>12400＆3060ti SCORE</h3><br>" +
+                "<h2><span><b>◆40082</b>：合計性能スコア</span></h2>" +
+                "<span>passmark:" + score12400 + "+" + score3060ti + "</span><br>" +
+                "<span>・お勧め構成：メモリ16GB / SSD1TB / マザーボードB660 / 電源BRONZE650W <br>・BTO推定価格：18万円前後 <br>・FPSやRPG等全ジャンルでのフルHDゲーミングにおすすめ！</span><br/>";
+            } else if(gpubtn3070.checked == true) {
+                target.innerHTML =  "<h3>12400＆3070 SCORE</h3><br>" +
+                "<h2><span><b>◆41958</b>：合計性能スコア</span></h2>" +
+                "<span>passmark:" + score12400 + "+" + score3070 + "</span><br>" +
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：22万円前後 	  <br>・フルHD165Hzゲーミングにおすすめ！</span><br/>";
+            } else if(gpubtn3070ti.checked == true) {
+                target.innerHTML =   "<h3>12400＆3070ti SCORE</h3><br>" +
+                "<h2><span><b>◆43263</b>：合計性能スコア</span></h2>" +
+                "<span>passmark:" + score12400 + "+" + score3070ti + "</span><br>" +
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：23万円前後 	  <br>・WQHD120Hzゲーミングにおすすめ！</span><br/>";
+            } else if(gpubtn3080.checked == true) {
+                target.innerHTML =   "<h3>12400＆3080 SCORE</h3><br>" +
+                "<h2><span><b>◆44805</b>：合計性能スコア</span></h2>" +
+                "<span>passmark:" + score12400 + "+" + score3080 + "</span><br>" +
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD850W <br>・BTO推定価格：27万円前後 	  <br>・WQHD144Hzゲーミングにおすすめ！</span><br/>";
+            }
     }
     else if (cpubtn12600K.checked == true) {
         if(gpubtn3060.checked == true) {
