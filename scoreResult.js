@@ -38,17 +38,17 @@ function onRadioButtonChange() {
                 target.innerHTML =  "<h3>12400＆3070 SCORE</h3><br>" +
                 "<h2><span><b>◆41958</b>：合計性能スコア</span></h2>" +
                 "<span>passmark:" + score12400 + "+" + score3070 + "</span><br>" +
-            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：22万円前後 	  <br>・フルHD165Hzゲーミングにおすすめ！</span><br/>";
+                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：22万円前後 <br>・フルHD165Hzゲーミングにおすすめ！</span><br/>";
             } else if(gpubtn3070ti.checked == true) {
                 target.innerHTML =   "<h3>12400＆3070ti SCORE</h3><br>" +
                 "<h2><span><b>◆43263</b>：合計性能スコア</span></h2>" +
                 "<span>passmark:" + score12400 + "+" + score3070ti + "</span><br>" +
-            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：23万円前後 	  <br>・WQHD120Hzゲーミングにおすすめ！</span><br/>";
+                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：23万円前後 <br>・WQHD120Hzゲーミングにおすすめ！</span><br/>";
             } else if(gpubtn3080.checked == true) {
                 target.innerHTML =   "<h3>12400＆3080 SCORE</h3><br>" +
                 "<h2><span><b>◆44805</b>：合計性能スコア</span></h2>" +
                 "<span>passmark:" + score12400 + "+" + score3080 + "</span><br>" +
-            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD850W <br>・BTO推定価格：27万円前後 	  <br>・WQHD144Hzゲーミングにおすすめ！</span><br/>";
+                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD850W <br>・BTO推定価格：27万円前後 <br>・WQHD144Hzゲーミングにおすすめ！</span><br/>";
             }
     }
     else if (cpubtn12600K.checked == true) {
@@ -56,27 +56,27 @@ function onRadioButtonChange() {
             target.innerHTML = "<h3>12600K＆3060 SCORE</h3><br>" +
             "<h2><span><b>◆44937</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12600k + "+" + score3060 + "</span><br>" +
-            "<span>・BTO推定価格：19万円前後 (メモリ16GB/SSD1TB)<br>・フルHD120Hzゲーミングにおすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードZ690 / 電源GOLD750W <br>・BTO推定価格：22万円前後 <br>・フルHD120Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3060ti.checked == true) {
             target.innerHTML = "<h3>12600K＆3060ti SCORE</h3><br>" +
             "<h2><span><b>◆48331</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12600k + "+" + score3060ti + "</span><br>" +
-            "<span>・BTO推定価格：20万円前後 (メモリ16GB/SSD1TB)<br>・フルHD144Hzゲーミングにおすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードZ690 / 電源GOLD750W <br>・BTO推定価格：24万円前後 <br>・フルHD144Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3070.checked == true) {
             target.innerHTML = "<h3>12600K＆3070 SCORE</h3><br>" +
             "<h2><span><b>◆50207</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12600k + "+" + score3070 + "</span><br>" +
-            "<span>・BTO推定価格：21万円前後 (メモリ16GB/SSD1TB)<br>・フルHD180Hz / WQHD120Hzゲーミングにおすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードZ690 / 電源GOLD750W <br>・BTO推定価格：25万円前後 <br>・フルHD180Hz / WQHD120Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3070ti.checked == true) {
             target.innerHTML = "<h3>12600K＆3070ti SCORE</h3><br>" +
             "<h2><span><b>◆51512</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12600k + "+" + score3070ti + "</span><br>" +
-            "<span>・BTO推定価格：22万円前後 (メモリ16GB/SSD1TB)<br>・フルHD240Hz / WQHD144Hz ゲーミングにおすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードZ690 / 電源GOLD750W <br>・BTO推定価格：26万円前後 <br>・フルHD240Hz / WQHD144Hz ゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3080.checked == true) {
             target.innerHTML = "<h3>12600K＆3080 SCORE</h3><br>" +
             "<h2><span><b>◆53134</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12600k + "+" + score3080 + "</span><br>" +
-            "<span>・BTO推定価格：26万円前後 (メモリ16GB/SSD1TB)<br>・WQHD165Hzゲーミングにおすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードZ690 / 電源GOLD850W <br>・BTO推定価格：30万円前後 <br>・WQHD165Hzゲーミングにおすすめ！</span><br/>";
         }
     }
     else if (cpubtn12700.checked == true) {
@@ -84,27 +84,27 @@ function onRadioButtonChange() {
             target.innerHTML = "<h3>12700＆3060 SCORE</h3><br>" +
             "<h2><span><b>◆48270</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12700 + "+" + score3060 + "</span><br>" +
-            "<span>・BTO推定価格：22万円前後 (メモリ32GB/SSD1TB/電源GOLD750W)<br>・ゲーム配信 / 動画編集におすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードH670 / 電源GOLD750W <br>・BTO推定価格：23万円前後 <br>・ゲーム配信 / 動画編集におすすめ！</span><br/>";
         } else if(gpubtn3060ti.checked == true) {
             target.innerHTML = "<h3>12700＆3060ti SCORE</h3><br>" +
             "<h2><span><b>◆51664</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12700 + "+" + score3060ti + "</span><br>" +
-            "<span>・BTO推定価格：23万円前後 (メモリ32GB/SSD1TB/電源GOLD750W)<br>・ゲーム配信 / フルHD144Hzゲーミングにおすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：24万円前後 <br>・ゲーム配信 / フルHD144Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3070.checked == true) {
             target.innerHTML = "<h3>12700＆3070 SCORE</h3><br>" +
             "<h2><span><b>◆53540</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12700 + "+" + score3070 + "</span><br>" +
-            "<span>・BTO推定価格：24万円前後 (メモリ32GB/SSD1TB/電源GOLD750W)<br>・ゲーム配信 / フルHD165Hzゲーミングにおすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：26万円前後 <br>・ゲーム配信 / フルHD165Hz / WQHD120Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3070ti.checked == true) {
             target.innerHTML = "<h3>12700＆3070ti SCORE</h3><br>" +
             "<h2><span><b>◆54845</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12700 + "+" + score3070ti + "</span><br>" +
-            "<span>・BTO推定価格：26万円前後 (メモリ32GB/SSD1TB/電源GOLD750W)<br>・ゲーム配信 / フルHD240Hz / WQHD144Hzゲーミングにおすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：28万円前後 <br>・ゲーム配信 / フルHD240Hz / WQHD144Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3080.checked == true) {
             target.innerHTML = "<h3>12700＆3080 SCORE</h3><br>" +
             "<h2><span><b>◆56467</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12700 + "+" + score3080 + "</span><br>" +
-            "<span>・BTO推定価格：30万円前後 (メモリ32GB/SSD1TB/電源GOLD850W)<br>・ゲーム配信 / WQHD165Hz / 4Kゲーミングにおすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD850W <br>・BTO推定価格：33万円前後 <br>・ゲーム配信 / WQHD165Hz / 4Kゲーミングにおすすめ！</span><br/>";
         }
     }
     else if (cpubtn12700K.checked == true) {
@@ -112,27 +112,27 @@ function onRadioButtonChange() {
             target.innerHTML = "<h3>12700K＆3060 SCORE</h3><br>" +
             "<h2><span><b>◆51861</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12700k + "+" + score3060 + "</span><br>" +
-            "<span>・BTO推定価格：24万円前後 (メモリ32GB/SSD1TB/電源GOLD750W)<br>・ゲーム配信 / 動画編集におすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードZ690 / 電源GOLD750W <br>・BTO推定価格：24万円前後 <br>・ゲーム配信 / 動画編集におすすめ！</span><br/>";
         } else if(gpubtn3060ti.checked == true) {
             target.innerHTML = "<h3>12700K＆3060ti SCORE</h3><br>" +
             "<h2><span><b>◆55255</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12700k + "+" + score3060ti + "</span><br>" +
-            "<span>・BTO推定価格：26万円前後 (メモリ32GB/SSD1TB/電源GOLD750W)<br>・ゲーム配信 / フルHD165Hzゲーミングにおすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードZ690 / 電源GOLD750W <br>・BTO推定価格：26万円前後 <br>・ゲーム配信 / フルHD165Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3070.checked == true) {
             target.innerHTML = "<h3>12700K＆3070 SCORE</h3><br>" +
             "<h2><span><b>◆57131</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12700k + "+" + score3070 + "</span><br>" +
-            "<span>・BTO推定価格：27万円前後 (メモリ32GB/SSD1TB/電源GOLD750W)<br>・ゲーム配信 / フルHD180Hzゲーミングにおすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードZ690 / 電源GOLD750W <br>・BTO推定価格：27万円前後 <br>・ゲーム配信 / フルHD180Hz / WQHD144Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3070ti.checked == true) {
             target.innerHTML = "<h3>12700K＆3070ti SCORE</h3><br>" +
             "<h2><span><b>◆58436</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12700k + "+" + score3070ti + "</span><br>" +
-            "<span>・BTO推定価格：27万円前後 (メモリ32GB/SSD1TB/電源GOLD750W)<br>・ゲーム配信 / フルHD280Hz / WQHD144Hzゲーミングにおすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードZ690 / 電源GOLD750W <br>・BTO推定価格：28万円前後 <br>・ゲーム配信 / フルHD280Hz / WQHD165Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3080.checked == true) {
             target.innerHTML = "<h3>12700K＆3080 SCORE</h3><br>" +
             "<h2><span><b>◆60058</b>：合計性能スコア</span></h2>" +
             "<span>passmark:" + score12700k + "+" + score3080 + "</span><br>" +
-            "<span>・BTO推定価格：32万円前後 (メモリ32GB/SSD1TB/電源GOLD850W)<br>・ゲーム配信 / WQHD165Hz / 4K120Hzゲーミングにおすすめ！</span><br/>";
+            "<span>・お勧め構成：メモリ64GB / SSD2TB / マザーボードZ690 / 電源GOLD850W <br>・BTO推定価格：36万円前後 <br>・ゲーム配信 / WQHD180Hz / 4K120Hzゲーミングにおすすめ！</span><br/>";
         }
     }
     else{
