@@ -208,27 +208,27 @@ function onRadioButtonChange() {
             target.innerHTML = "<h3>13700＆3060 SCORE</h3><br>" +
                 "<h2><span><b>◆" + (score13700 + score3060) + "</b>：合計性能スコア</span></h2>" +
                 "<span>passmark " + "Core i7 13700: " + score13700 + " + RTX3060 12GB: " + score3060 + "</span><br>" +
-                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードH670 / 電源GOLD750W <br>・BTO推定価格：23万円前後 <br>・ゲーム配信 / 動画編集におすすめ！</span><br/>";
+                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB760 / 電源GOLD750W <br>・BTO推定価格：25万円前後 <br>・フルHDゲーム配信 / 動画編集におすすめ！</span><br/>";
         } else if (gpubtn3060ti.checked == true) {
             target.innerHTML = "<h3>13700＆3060Ti SCORE</h3><br>" +
                 "<h2><span><b>◆" + (score13700 + score3060ti) + "</b>：合計性能スコア</span></h2>" +
                 "<span>passmark " + "Core i7 13700: " + score13700 + " + RTX3060Ti 8GB: " + score3060ti + "</span><br>" +
-                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：24万円前後 <br>・ゲーム配信 / フルHD144Hzゲーミングにおすすめ！</span><br/>";
+                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB760 / 電源GOLD750W <br>・BTO推定価格：26万円前後 <br>・ゲーム配信 / フルHD144Hzゲーミングにおすすめ！</span><br/>";
         } else if (gpubtn3070.checked == true) {
             target.innerHTML = "<h3>13700＆3070 SCORE</h3><br>" +
                 "<h2><span><b>◆" + (score13700 + score3070) + "</b>：合計性能スコア</span></h2>" +
                 "<span>passmark " + "Core i7 13700: " + score13700 + " + RTX3070 8GB: " + score3070 + "</span><br>" +
-                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：26万円前後 <br>・ゲーム配信 / フルHD165Hz / WQHD120Hzゲーミングにおすすめ！</span><br/>";
+                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB760 / 電源GOLD750W <br>・BTO推定価格：28万円前後 <br>・ゲーム配信 / フルHD165Hz / WQHD120Hzゲーミングにおすすめ！</span><br/>";
         } else if (gpubtn3070ti.checked == true) {
             target.innerHTML = "<h3>13700＆3070Ti SCORE</h3><br>" +
                 "<h2><span><b>◆" + (score13700 + score3070ti) + "</b>：合計性能スコア</span></h2>" +
                 "<span>passmark " + "Core i7 13700: " + score13700 + " + RTX3070Ti 8GB: " + score3070ti + "</span><br>" +
-                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：28万円前後 <br>・ゲーム配信 / フルHD240Hz / WQHD144Hzゲーミングにおすすめ！</span><br/>";
+                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB760 / 電源GOLD750W <br>・BTO推定価格：28万円前後 <br>・ゲーム配信 / フルHD240Hz / WQHD144Hzゲーミングにおすすめ！</span><br/>";
         } else if (gpubtn3080.checked == true) {
             target.innerHTML = "<h3>13700＆3080 SCORE</h3><br>" +
                 "<h2><span><b>◆" + (score13700 + score3080) + "</b>：合計性能スコア</span></h2>" +
                 "<span>passmark " + "Core i7 13700: " + score13700 + " + RTX3080 10GB: " + score3080 + "</span><br>" +
-                "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD850W <br>・BTO推定価格：33万円前後 <br>・ゲーム配信 / WQHD165Hz / 4Kゲーミングにおすすめ！</span><br/>";
+                "<span>・お勧め構成：メモリ32GB / SSD2TB / マザーボードB760 / 電源GOLD850W <br>・BTO推定価格：34万円前後 <br>・ゲーム配信 / 3Dゲーム開発 / WQHD165Hz / 4K120Hzゲーミングにおすすめ！</span><br/>";
         }
     }
     else if (cpubtn13700K.checked == true) {
