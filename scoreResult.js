@@ -17,9 +17,10 @@ function onRadioButtonChange() {
 
     target = document.getElementById("output");
 
+    //passmarkスコア
     const score12400  = 19549;
     const score12600k = 27798;
-    const score12700  = "「 Core i7 12700: 31131 」";
+    const score12700  = 31131;
     const score12700k = "「 Core i7 12700K: 34722 」";
 
     const score13400  = 26355;
@@ -93,28 +94,28 @@ function onRadioButtonChange() {
     else if (cpubtn12700.checked == true) {
         if(gpubtn3060.checked == true) {
             target.innerHTML = "<h3>12700＆3060 SCORE</h3><br>" +
-            "<h2><span><b>◆48270</b>：合計性能スコア</span></h2>" +
-            "<span>passmark:" + score12700 + "+" + score3060 + "</span><br>" +
+            "<h2><span><b>◆" + (score12700 + score3060) + "</b>：合計性能スコア</span></h2>" +
+            "<span>passmark " + "Core i7 12700: " + score12700 + " + RTX3060 12GB: " + score3060 + "</span><br>" +
             "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードH670 / 電源GOLD750W <br>・BTO推定価格：23万円前後 <br>・ゲーム配信 / 動画編集におすすめ！</span><br/>";
         } else if(gpubtn3060ti.checked == true) {
             target.innerHTML = "<h3>12700＆3060Ti SCORE</h3><br>" +
-            "<h2><span><b>◆51664</b>：合計性能スコア</span></h2>" +
-            "<span>passmark:" + score12700 + "+" + score3060ti + "</span><br>" +
+            "<h2><span><b>◆" + (score12700 + score3060ti) + "</b>：合計性能スコア</span></h2>" +
+            "<span>passmark " + "Core i7 12700: " + score12700 + " + RTX3060Ti 8GB: " + score3060ti + "</span><br>" +
             "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：24万円前後 <br>・ゲーム配信 / フルHD144Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3070.checked == true) {
             target.innerHTML = "<h3>12700＆3070 SCORE</h3><br>" +
-            "<h2><span><b>◆53540</b>：合計性能スコア</span></h2>" +
-            "<span>passmark:" + score12700 + "+" + score3070 + "</span><br>" +
+            "<h2><span><b>◆" + (score12700 + score3070) + "</b>：合計性能スコア</span></h2>" +
+            "<span>passmark " + "Core i7 12700: " + score12700 + " + RTX3070 8GB: " + score3070 + "</span><br>" +
             "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：26万円前後 <br>・ゲーム配信 / フルHD165Hz / WQHD120Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3070ti.checked == true) {
             target.innerHTML = "<h3>12700＆3070Ti SCORE</h3><br>" +
-            "<h2><span><b>◆54845</b>：合計性能スコア</span></h2>" +
-            "<span>passmark:" + score12700 + "+" + score3070ti + "</span><br>" +
+            "<h2><span><b>◆" + (score12700 + score3070ti) + "</b>：合計性能スコア</span></h2>" +
+                "<span>passmark " + "Core i7 12700: " + score12700 + " + RTX3070Ti 8GB: " + score3070ti + "</span><br>" +
             "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD750W <br>・BTO推定価格：28万円前後 <br>・ゲーム配信 / フルHD240Hz / WQHD144Hzゲーミングにおすすめ！</span><br/>";
         } else if(gpubtn3080.checked == true) {
             target.innerHTML = "<h3>12700＆3080 SCORE</h3><br>" +
-            "<h2><span><b>◆56467</b>：合計性能スコア</span></h2>" +
-            "<span>passmark:" + score12700 + "+" + score3080 + "</span><br>" +
+            "<h2><span><b>◆" + (score12700 + score3080) + "</b>：合計性能スコア</span></h2>" +
+                "<span>passmark " + "Core i7 12700: " + score12700 + " + RTX3080 10GB: " + score3080 + "</span><br>" +
             "<span>・お勧め構成：メモリ32GB / SSD1TB / マザーボードB660 / 電源GOLD850W <br>・BTO推定価格：33万円前後 <br>・ゲーム配信 / WQHD165Hz / 4Kゲーミングにおすすめ！</span><br/>";
         }
     }
